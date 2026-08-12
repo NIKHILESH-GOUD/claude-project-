@@ -1,4 +1,4 @@
-# Real-Time E-Commerce Intelligence Platform
+Real-Time E-Commerce Intelligence Platform
 
 An end-to-end data platform that simulates a live online store and processes
 orders, clickstream, and inventory events in real time — built to demonstrate
