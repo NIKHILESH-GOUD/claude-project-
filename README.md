@@ -1,7 +1,7 @@
 ## Real-Time E-Commerce Intelligence Platform
 Real-time streaming analytics platform processing e-commerce events end-to-end from Kafka ingestion through Spark stream processing to a serving API and live dashboard.
 An end-to-end data platform that simulates a live online store and processes
-orders, clickstream, and inventory events in real time — built to demonstrate
+orders, clickstream, and inventory events in real time, built to demonstrate
 Data Engineering (Kafka, Spark Structured Streaming, Airflow), Data Analytics
 (dashboards, KPIs), and applied ML (demand forecasting) in one project.
 
@@ -29,17 +29,17 @@ Data Engineering (Kafka, Spark Structured Streaming, Airflow), Data Analytics
 
 ## Status: Week 1 & 2 ✅
 
-- [x] Kafka + Zookeeper + Kafka UI + Postgres via Docker Compose
-- [x] Shared product catalog (`producers/catalog.py`)
-- [x] Order producer with realistic hourly traffic curve
-- [x] Clickstream producer (page views, product views, cart events)
-- [x] Inventory producer with low-stock / restock simulation
-- [x] Spark Structured Streaming job (`spark_jobs/streaming_job.py`) with 4 live outputs:
+- [ ] Kafka + Zookeeper + Kafka UI + Postgres via Docker Compose
+- [ ] Shared product catalog (`producers/catalog.py`)
+- [ ] Order producer with realistic hourly traffic curve
+- [ ] Clickstream producer (page views, product views, cart events)
+- [ ] Inventory producer with low-stock / restock simulation
+- [ ] Spark Structured Streaming job (`spark_jobs/streaming_job.py`) with 4 live outputs:
   - `revenue_per_minute` — tumbling 1-min window revenue/order metrics
   - `clickstream_funnel` — event counts per category/event_type per minute
   - `low_stock_alerts` — real-time filter on inventory events
   - `cart_abandonment` — **stream-stream join**: add-to-cart events with no matching order within 10 minutes
-- [x] Transformation logic unit-tested with static data (`spark_jobs/test_transformations.py`)
+- [ ] Transformation logic unit-tested with static data (`spark_jobs/test_transformations.py`)
 - [ ] Week 3 — Airflow DAGs: ETL, demand forecasting retrain, reorder point calc
 - [ ] Week 4 — Power BI/Tableau dashboard + FastAPI ops endpoint + demo
 
