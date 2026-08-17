@@ -1,5 +1,5 @@
 ## Real-Time E-Commerce Intelligence Platform
-
+Real-time streaming analytics platform processing e-commerce events end-to-end — from Kafka ingestion through Spark stream processing to a serving API and live dashboard.
 An end-to-end data platform that simulates a live online store and processes
 orders, clickstream, and inventory events in real time — built to demonstrate
 Data Engineering (Kafka, Spark Structured Streaming, Airflow), Data Analytics
